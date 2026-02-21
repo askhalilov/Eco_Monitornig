@@ -1,10 +1,9 @@
-
+﻿
   import { defineConfig } from 'vite';
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
-  export default defineConfig({
-    // GitHub Pages-friendly paths (works for both user pages and project pages)
+  export default defineConfig({`n  base: "./",`n  // GitHub Pages-friendly paths (works for both user pages and project pages)
     base: "./",
     plugins: [react()],
     resolve: {
